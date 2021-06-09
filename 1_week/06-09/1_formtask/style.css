@@ -30,7 +30,8 @@ h1 {
 
 label,
 input,
-button {
+button,
+textarea {
   display: block;
 }
 
@@ -46,6 +47,10 @@ textarea {
   background-color: transparent;
   border: none;
   border-bottom: 1px solid gray;
+}
+
+textarea {
+  resize: none;
 }
 
 button {
