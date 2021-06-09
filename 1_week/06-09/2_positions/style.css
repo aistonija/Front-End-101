@@ -41,3 +41,16 @@ p {
   top: 50%;
   transform: translate(-50%, -50%);
 }
+
+.position5 {
+  position: fixed;
+  background-color: blueviolet;
+  top: 20px;
+  right: 20px;
+}
+
+.position6 {
+  position: sticky;
+  top: 20px;
+  background-color: coral;
+}
