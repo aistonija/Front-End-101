@@ -1,0 +1,21 @@
+Recap Užduotis
+
+1. Susikurti naują html dokumentą;
+2. Susikurti naują css failą;
+3. CSS prijungti prie HTML;
+
+4. Susikurti lentelę, kuri užims 100% ekrano pločio ir turės viengubą taškuotą border;
+
+5. Lentelėje turėtų būti:
+    - 4 vienodo pločio stulpeliai;
+    - eilutė, kur yra 4 šalių pavadinimai;
+    - eilutė, kur yra tų šalių vėliavos (aprašytos ranka per html/css, o ne nuotraukos);
+    - eilutė, kur yra nuorodos į tų šalių wiki;
+
+6. Šalių pavadinimai turėtų būti išcentruoti kairėje ir turėti vienos spalvos background
+
+Bonus:
+    - Užvedus pelyte ant vėliavos, ji turėtų išdidėti 1.3 karto (hover and scale);
+    - Užvedus pelyte ant lentelėje esančios nuorodos laukelio, pasikeistų background spalva. 
+
+

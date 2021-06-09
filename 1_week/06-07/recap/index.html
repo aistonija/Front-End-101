@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Recap</title>
+  </head>
+  <body>
+    <div>
+      <a href="#first-topic" style="width: 200px">Nuoroda 1</a>
+      <a href="#second-topic">Nuoroda 2</a>
+      <a href="#third-topic">Nuoroda 3</a>
+      <a href="#fourth-topic">Nuoroda 4</a>
+    </div>
+    <h1 id="main-heading">HTML Elementai</h1>
+    <h2 id="first-topic" class="bg-skyblue pt-2">Blokiniai elementai</h2>
+    <p>
+      Blokiniai elementai, tai tokie elementai, kurie atvaizduojami vienas po
+      kitu, lyg namo aukštai. Visada užima 100% ekrano.
+    </p>
+    <h3>Dažniausiai naudojami blokiniai elementai</h3>
+    <ul>
+      <li>
+        div - standartinis blokinis elementas, kaip dėžė į kurią talpiname
+        turinį
+      </li>
+      <li>header - skirtas puslapio antraštei kurti</li>
+      <li>section - skirtas puslapio sekcijai</li>
+      <li>footer - skirtas apatinei sekcijai, copyright ir pan.</li>
+      <li>
+        article - skirtas puslapio straipsniui (sekcijos daliai, potemei ir
+        pan.)
+      </li>
+      <li>main - skirtas pagrindinei puslapio informacijai</li>
+    </ul>
+    <hr />
+    <h2 id="second-topic" class="bg-skyblue">Eilutės elementai</h2>
+    <p>
+      Eilutės elementai dažniausiai traktuojami kaip tekstas, ir visuomet užima
+      tik tiek vietos, kiek užima jų turinys.
+    </p>
+    <h3>Dažniausiai naudojami eilutės elementai</h3>
+    <ul>
+      <li>img - nuotrauka</li>
+      <li>
+        span - kaip maišelis, kaip teksto dalis, kuri leidžia atskirti turinį
+      </li>
+      <li>a - nuoroda</li>
+    </ul>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque
+      consequuntur distinctio temporibus facere quas earum velit hic ipsum,
+      <span style="color: blue">cumque assumenda</span>.
+    </p>
+    <img
+      src="https://dogtime.com/assets/uploads/2011/03/puppy-development.jpg"
+      alt=""
+      style="width: 200px"
+    />
+    <hr />
+    <h2 id="third-topic" class="bg-skyblue">Blokiniai eilutės elementai</h2>
+    <p>
+      Elementai, kurie stovi vienoje eilutėje, bet leidžia keisti aukščio ir
+      pločio savybes.
+    </p>
+    <h3>Dažniausiai naudojami inline-block elementai</h3>
+    <ul>
+      <li>input - formos laukelis</li>
+      <li>select - formos pasirinkimo laukelis</li>
+      <li>textarea - formos laukelis ilgam tekstui</li>
+      <li>button - mygtukas</li>
+    </ul>
+    <button style="width: 200px; height: 100px">Spaust</button
+    ><button>Spaust</button>
+    <hr />
+    <h2 id="fourth-topic">Style rašymo būdai</h2>
+    <ul>
+      <li>inline - stilius taikomas tik tam elementui, jo tag'o viduje</li>
+      <li>internal - stilius aprašomas html dokumento head tag'e</li>
+      <li>
+        external - sukuriamas css failas, kuris yra prijungiamas per link tag'ą
+        html head'e
+      </li>
+    </ul>
+    <h3>CSS Selektoriai</h3>
+    <ul>
+      <li>class</li>
+      <li>id</li>
+      <li>html tag'ai</li>
+    </ul>
+    <hr />
+    <h2>Table Recap</h2>
+    <table>
+      <!-- lenteles galva -->
+      <thead>
+        <!-- eilute (table row) -->
+        <tr>
+          <!-- headingo stulpelis (table heading) -->
+          <th>Pirmas stulpelis</th>
+          <th>Antras stulpelis</th>
+          <th>Trečias</th>
+          <th>Ketvirtas stulpelis</th>
+        </tr>
+      </thead>
+      <!-- table body - lenteles kunas -->
+      <tbody>
+        <!-- pirma eilute -->
+        <tr>
+          <td>table data</td>
+          <td>table data</td>
+          <td>table data</td>
+          <td>table data</td>
+        </tr>
+        <!-- antra eilute -->
+        <tr>
+          <td>table data</td>
+          <td>table data</td>
+          <td>table data</td>
+          <td>table data</td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>

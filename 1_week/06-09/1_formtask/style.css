@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(mountain.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.layer {
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+}
+
+.form-container {
+  padding: 50px;
+  background-color: blanchedalmond;
+  width: 700px;
+  margin: 50px auto;
+}
+
+h1 {
+  text-align: center;
+}
+
+label,
+input,
+button {
+  display: block;
+}
+
+label {
+  margin-bottom: 20px;
+}
+
+input,
+textarea {
+  padding: 5px 0;
+  width: 100%;
+  margin-top: 5px;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid gray;
+}
+
+button {
+  margin-top: 20px;
+  background-color: rgb(27, 27, 27);
+  color: white;
+  width: 200px;
+  padding: 6px;
+  border: none;
+}

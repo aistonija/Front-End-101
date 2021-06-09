@@ -1,0 +1,19 @@
+form {
+  padding: 20px;
+  width: 60%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+label,
+input {
+  display: block;
+}
+
+label {
+  margin-bottom: 10px;
+}
+
+input {
+  margin: 0 auto;
+}

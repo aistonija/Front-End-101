@@ -1,0 +1,65 @@
+* {
+  box-sizing: border-box;
+}
+
+.bg {
+  height: 200px;
+  border: 1px solid black;
+  width: 60%;
+  margin: 10px auto;
+}
+
+h2 {
+  text-align: center;
+}
+
+.bg-1 {
+  background-color: rgba(202, 109, 162, 0.5);
+}
+
+.bg-2 {
+  background-color: rgb(218, 253, 164);
+  opacity: 0.5;
+}
+
+.bg-3 {
+  background: linear-gradient(to top, black, gray);
+}
+
+.bg-4 {
+  background: radial-gradient(black, gray);
+}
+
+.bg-5 {
+  background-image: url(https://www.impel.eu/wp-content/uploads/2019/08/mediterranean-sea.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+
+.bg-5 > h2 {
+  background-color: rgb(255, 255, 255, 0.5);
+  padding: 20px;
+  width: 80%;
+  margin: 20px auto;
+}
+
+.bg-6 {
+  height: 400px;
+  background-image: url(sunset.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  margin-bottom: 200px;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.bg-6 h2 {
+  margin: 0;
+}
+
+.bg-layer {
+  background-color: rgb(255, 255, 255, 0.5);
+  height: 100%;
+}
