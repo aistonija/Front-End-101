@@ -1,0 +1,43 @@
+body {
+  padding: 50px;
+}
+
+.background {
+  width: 800px;
+  height: 500px;
+  background-image: url(https://cdn.britannica.com/05/155405-050-F8969EE6/Spring-flowers-fruit-trees-bloom.jpg);
+  background-size: cover;
+}
+
+/* DISPLAY NONE VERSION */
+
+/* .layer {
+  background-color: rgba(255, 255, 255, 0.3);
+  height: 100%;
+  display: none;
+}
+
+.background:hover .layer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h2 {
+  margin: 0;
+} */
+
+/* VISIBILITY HIDDEN */
+
+.layer {
+  background-color: rgba(255, 255, 255, 0.3);
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  visibility: hidden;
+}
+
+.background:hover .layer {
+  visibility: visible;
+}
