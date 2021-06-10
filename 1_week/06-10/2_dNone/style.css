@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+}
+
+body {
+  padding: 20px;
+}
+
+.display {
+  height: 200px;
+  width: 200px;
+  border: 1px solid black;
+}
+
+.none {
+  display: none;
+}
+
+.hidden {
+  visibility: hidden;
+}
