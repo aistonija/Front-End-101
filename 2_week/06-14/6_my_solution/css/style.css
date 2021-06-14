@@ -1,0 +1,140 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  color: rgb(46, 46, 46);
+}
+
+.max-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  height: calc(100vh - 200px);
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+
+header.container,
+main.container {
+  display: flex;
+  align-items: center;
+}
+
+header.container {
+  justify-content: space-between;
+  font-size: 2em;
+}
+
+.logo {
+  text-decoration: none;
+}
+
+.fa-align-justify {
+  cursor: pointer;
+}
+
+main.container {
+  padding-top: 20px;
+}
+
+.binoculars-container {
+  width: 45%;
+  height: 600px;
+  padding-right: 20px;
+}
+
+.binoculars {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.content-container {
+  width: 55%;
+  padding-left: 20px;
+}
+
+.form-container form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-bottom: 50px;
+}
+
+.content-heading {
+  margin-bottom: 20px;
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  margin-bottom: 20px;
+  border: none;
+  background-color: rgba(110, 91, 64, 0.1);
+  padding: 5px;
+}
+
+input[type="submit"] {
+  width: 200px;
+  border: 3px solid rgb(73, 45, 45);
+  padding: 10px;
+  background-color: transparent;
+  border-radius: 30px;
+}
+
+input,
+textarea {
+  font-size: 1.5em;
+}
+
+.social-container > a {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  position: relative;
+  background-color: rgb(46, 46, 46);
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+.social-container > a > i {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 16px;
+}
+
+.social-container > p {
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+footer {
+  height: 200px;
+  padding: 50px;
+  background-color: rgb(46, 46, 46);
+  text-align: center;
+}
+
+.footer-text-container {
+  width: 40%;
+  margin: 0 auto;
+}
+
+.footer-text-container:first-child {
+  margin-bottom: 30px;
+}
+
+footer > p {
+  color: white;
+}
+
+footer > p > a {
+  color: rgb(190, 190, 241);
+}
