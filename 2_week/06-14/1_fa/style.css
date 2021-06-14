@@ -1,0 +1,11 @@
+.fab {
+  font-size: 100px;
+  color: red;
+  padding: 50px;
+  margin-top: 20px;
+}
+
+.link::before {
+  content: "\f39e";
+  font-family: "Font Awesome 5 Brands";
+}
