@@ -1,0 +1,25 @@
+Užduoties pavyzdys:
+https://templatemo.com/live/templatemo_500_fluid_gallery
+
+- Pasirinkite Normal Color Page.
+
+- Daromas tik pagrindinis puslapis
+- Pavyzdyje sumažėjus ekranui vietoj navigacijos atsiranda menu bar, ant kurio paspaudus navigacija atsiranda. Mūsų tikslas nėra funkcionalumas, bet jeigu norite - galima pridėti JS, arba su CSS pritaikyti hover (bonus užduotis). 
+
+-------------------------
+
+1. Desktop first approach (pradedame nuo desktop versijos);
+2. Į tablet view pasikeičia kuomet ekranas yra iki 1000px;
+3. Į mobile view pasikeičia kuomet ekranas yra iki 550px;
+
+-------------------------
+
+- CSS sukuriama struktūra. Pvz. navbar.css, gallery.css, footer.css, media.css - talpinama informacija pagal struktūrą;
+
+- Parsisiunčiamos nuotraukos, kurios saugomos atskirame img folderyje. 
+
+- Nuotraukas dedame per background-image;
+- Pasistenkite ekrano keitimosi metu išlaikyti kvadratines nuotraukų proporcijas (ratio 1:1);
+- Taip pat daromas ir hover ant nuotraukų, kurio metu atsiranda tekstas iš apačios. 
+- Atkreipkite dėmesį į detales (hoveriai, spalvų pasikeitimai ir t.t.);
+- Galite naudotis ir original website inspect, bet jeigu matysiu, kad nukopijuota, tai neužskaitysiu kaip atlikto darbo :D 
