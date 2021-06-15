@@ -11,6 +11,8 @@
   max-width: 1200px;
   margin: 0 auto;
   height: calc(100vh - 200px);
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .container {
