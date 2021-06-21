@@ -1,0 +1,6 @@
+.bg-sea {
+  background-image: url(https://www.impel.eu/wp-content/uploads/2019/08/mediterranean-sea.jpg);
+  height: 600px;
+  background-size: cover;
+  background-position-y: bottom;
+}
