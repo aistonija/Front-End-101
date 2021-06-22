@@ -42,4 +42,9 @@
   .container-fluid:not(:first-child) {
     max-width: 1500px;
   }
+
+  .main-bg {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
 }
