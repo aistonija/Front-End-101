@@ -1,0 +1,45 @@
+.navbar-brand > b,
+.brand > span:first-child {
+  text-transform: uppercase;
+}
+
+.navbar-brand,
+.nav-link {
+  font-size: 1rem;
+  padding: 0.5rem;
+}
+
+.navbar-brand,
+.nav-link,
+.brand:nth-child(2) {
+  letter-spacing: 4px;
+}
+
+.navbar-brand:hover,
+.nav-item:hover {
+  background-color: rgb(206, 206, 206);
+}
+
+.main-bg {
+  width: 100%;
+}
+
+.brand {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.bg-dark-80 {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.text-white-80 {
+  color: rgba(255, 255, 255, 0.856);
+}
+
+@media only screen and (min-width: 1500px) {
+  .container-fluid:not(:first-child) {
+    max-width: 1500px;
+  }
+}
