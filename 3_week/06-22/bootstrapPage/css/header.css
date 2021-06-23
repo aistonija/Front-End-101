@@ -20,7 +20,8 @@
   background-color: rgb(206, 206, 206);
 }
 
-.main-bg {
+.main-bg,
+.map-bg {
   width: 100%;
 }
 
