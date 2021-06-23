@@ -1,0 +1,29 @@
+* {
+  font-family: "Raleway", sans-serif;
+}
+
+.btn-black {
+  background-color: black;
+}
+
+.background {
+  background-image: url(../images/onepage_restaurant.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-x: center;
+  height: 100vh;
+}
+
+.main-logo {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.main-logo > h1 {
+  font-size: 4rem;
+}
+
+.bottom-contacts {
+  bottom: 0;
+}
