@@ -9,3 +9,37 @@
 .bg-black {
   background-color: black;
 }
+
+.projects .col {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.col > img {
+  object-fit: cover;
+  width: 100%;
+}
+
+/* No greater than 992px, no less than 576px */
+@media only screen and (max-width: 991px) and (min-width: 576px) {
+  .projects .col:nth-child(odd) {
+    padding-right: 8px;
+  }
+
+  .projects .col:nth-child(even) {
+    padding-left: 8px;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .projects .col {
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+  }
+}
+
+@media only screen and (min-width: 1500px) {
+  .projects {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+}
