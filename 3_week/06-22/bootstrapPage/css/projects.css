@@ -20,14 +20,13 @@
   width: 100%;
 }
 
-/* No greater than 992px, no less than 576px */
-@media only screen and (max-width: 991px) and (min-width: 576px) {
+@media only screen and (min-width: 576px) {
   .projects .col:nth-child(odd) {
-    padding-right: 8px;
+    padding-right: 0.5rem;
   }
 
   .projects .col:nth-child(even) {
-    padding-left: 8px;
+    padding-left: 0.5rem;
   }
 }
 @media only screen and (min-width: 992px) {
