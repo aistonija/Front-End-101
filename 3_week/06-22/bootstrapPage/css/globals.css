@@ -2,6 +2,19 @@ body {
   overflow-x: hidden;
 }
 
+.main-bg,
+.map-bg {
+  width: 100%;
+}
+
+.bg-dark-80 {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.text-white-80 {
+  color: rgba(255, 255, 255, 0.856);
+}
+
 input,
 footer > span {
   letter-spacing: 1px;
