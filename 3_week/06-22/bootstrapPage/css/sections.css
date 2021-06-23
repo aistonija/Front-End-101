@@ -1,3 +1,7 @@
+/* =================== */
+/* PROJECTS SECTION */
+/* =================== */
+
 .house {
   width: 100%;
 }
@@ -41,4 +45,12 @@
     padding-left: 0 !important;
     padding-right: 0 !important;
   }
+}
+
+/* =================== */
+/* ABOUT SECTION */
+/* =================== */
+
+.card-img-top {
+  filter: grayscale(60%);
 }

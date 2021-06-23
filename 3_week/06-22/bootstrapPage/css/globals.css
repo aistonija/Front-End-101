@@ -6,3 +6,7 @@ input,
 footer > span {
   letter-spacing: 1px;
 }
+
+.bg-black {
+  background-color: black;
+}
