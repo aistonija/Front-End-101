@@ -22,4 +22,7 @@ https://templatemo.com/live/templatemo_500_fluid_gallery
 - Pasistenkite ekrano keitimosi metu išlaikyti kvadratines nuotraukų proporcijas (ratio 1:1);
 - Taip pat daromas ir hover ant nuotraukų, kurio metu atsiranda tekstas iš apačios. 
 - Atkreipkite dėmesį į detales (hoveriai, spalvų pasikeitimai ir t.t.);
-- Galite naudotis ir original website inspect, bet jeigu matysiu, kad nukopijuota, tai neužskaitysiu kaip atlikto darbo :D 
+- Galite naudotis ir original website inspect, bet jeigu matysiu, kad nukopijuota, tai neužskaitysiu kaip atlikto darbo :D
+
+-------------------------
+

@@ -10,7 +10,7 @@
   background-color: black;
 }
 
-.projects .col {
+.section .col {
   padding-left: 0;
   padding-right: 0;
 }
@@ -21,23 +21,23 @@
 }
 
 @media only screen and (min-width: 576px) {
-  .projects .col:nth-child(odd) {
+  .section .col:nth-child(odd) {
     padding-right: 0.5rem;
   }
 
-  .projects .col:nth-child(even) {
+  .section .col:nth-child(even) {
     padding-left: 0.5rem;
   }
 }
 @media only screen and (min-width: 992px) {
-  .projects .col {
+  .section .col {
     padding-right: 0.5rem;
     padding-left: 0.5rem;
   }
 }
 
 @media only screen and (min-width: 1500px) {
-  .projects {
+  .section {
     padding-left: 0 !important;
     padding-right: 0 !important;
   }
