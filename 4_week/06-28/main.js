@@ -105,8 +105,11 @@ Multi-line comments
 // console.log(house.address.toUpperCase());
 
 // house.builtYear = 1980;
-// house.roomsCount = house.roomsCount - 1;
+
 // console.log(house);
+
+// house.roomsCount = house.roomsCount - 1;
+// house.roomsCount -= 1;
 
 // Array - masyvas, reikšmių sąrašas
 
