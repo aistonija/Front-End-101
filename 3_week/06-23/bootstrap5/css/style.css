@@ -6,6 +6,12 @@
   background-color: black;
 }
 
+.btn:hover {
+  background-color: lightgray;
+  color: black !important;
+  outline: none;
+}
+
 .background {
   background-image: url(../images/onepage_restaurant.jpg);
   background-repeat: no-repeat;
