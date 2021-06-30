@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="#" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Form</title>
+  </head>
+  <body>
+    <div class="container">
+      <!-- form -->
+      <form>
+        <input type="text" placeholder="Enter Your Name" name="firstName" />
+        <input type="number" placeholder="Enter Your Age" name="age" />
+        <input type="url" placeholder="Attach Image Url" name="imageUrl" />
+        <!-- radio input -->
+        <div class="form-group">
+          <h3>Your Gender:</h3>
+          <label for="female">Female</label>
+          <input type="radio" id="female" name="gender" value="Female" />
+
+          <label for="male">Male</label>
+          <input type="radio" id="male" name="gender" value="Male" />
+
+          <label for="other">Other</label>
+          <input type="radio" id="other" name="gender" value="Other" />
+        </div>
+
+        <!-- select -->
+        <div class="form-group">
+          <label for="relationship">Relationship status:</label>
+          <select name="relationship" id="relationship">
+            <option value="">Select one of the following:</option>
+            <option value="1">Single</option>
+            <option value="2">Married</option>
+            <option value="3">Complicated</option>
+          </select>
+        </div>
+
+        <!-- textarea -->
+        <textarea
+          name="aboutMe"
+          id="textArea"
+          placeholder="Tell something about yourself"
+        ></textarea>
+
+        <button type="submit">Submit</button>
+      </form>
+      <!-- card container -->
+      <div class="card-container"></div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
