@@ -27,10 +27,16 @@ for (let i = 0; i < flexItems.length; i++) {
     square.style.outline = "none";
   });
 
+  // pamastyti/pasirasyti if salyga, kad:
+  // paspaudus peles klavisa spalva uzsideda, arba nusiima.
   square.addEventListener("click", function () {
-    square.style.backgroundColor = `rgb(${randomInt()}, ${randomInt()}, ${randomInt()})`;
-    // pamastyti/pasirasyti if salyga, kad:
-    // paspaudus peles klavisa spalva uzsideda, arba nusiima.
+    // jeigu inline bg spalva uzdeta
+    if (square.style.backgroundColor) {
+      // tada ta spalva isvalykime, palikime tuscia
+      square.style.backgroundColor = "";
+    } else {
+      square.style.backgroundColor = `rgb(${randomInt()}, ${randomInt()}, ${randomInt()})`;
+    }
   });
 }
 
